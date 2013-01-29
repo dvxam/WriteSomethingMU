@@ -1,19 +1,16 @@
 <!DOCTYPE html> 
 <html> 
-<head> 
-	<title>WriteSomething</title> 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1"> 
-	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
-	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
-	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
-</head> 
+<head>
+	<?php include '../partials/header.php'; ?>
+</head>
 <body> 
 
 <div data-role="page" data-title="Page Connect" >
 
 	<div data-role="header" data-theme="c">
+		<a href="../home.php" data-icon="home" data-iconpos="notext" data-direction="reverse">Home</a>
 		<h1>WriteSomething</h1>
+		<a href="" data-icon="star" >32 340</a>
 	</div><!-- /header -->
 
 	<div data-role="content">	

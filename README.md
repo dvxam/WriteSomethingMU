@@ -1,4 +1,0 @@
-WriteSomethingMU
-================
-
-WriteSomething MockUp
